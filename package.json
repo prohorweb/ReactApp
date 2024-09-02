@@ -11,13 +11,18 @@
     "build": "react-scripts build",
     "postbuild": "react-snap"
   },
-"reactSnap": {
-  "inlineCss": true,
-  "minifyHtml": true,
-  "routes": ["/"],
-  "puppeteerArgs": ["--no-sandbox"]
-},
+  "reactSnap": {
+    "inlineCss": true,
+    "minifyHtml": true,
+    "routes": [
+      "/"
+    ],
+    "puppeteerArgs": [
+      "--no-sandbox"
+    ]
+  },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "css-loader": "^7.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
