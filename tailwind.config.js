@@ -5,7 +5,13 @@ module.exports = {
   ],
   mode: 'jit',
     theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          950: '#0f2549', 
+        },
+      },
+    },
   },
   variants: {},
   plugins: [],

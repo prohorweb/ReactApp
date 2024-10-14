@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+    .container {
+      @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8
+    }
+    .read_more {
+      @apply text-sky-800 border-b-[2px] border-sky-800 pb-1
+    }
+  }
